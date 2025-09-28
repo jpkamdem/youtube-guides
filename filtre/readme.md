@@ -1,0 +1,1 @@
+❌ condition direct : on ne cherche pas à agir sur l'ensemble de la liste -> il faut filtrer
