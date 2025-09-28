@@ -1,1 +1,1 @@
-❌ if/else retourne un booléen, return true/false est donc superflu
+❌ if/else retourne un booléen, return `true`/`false` est donc superflu
