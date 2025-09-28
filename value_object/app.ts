@@ -11,6 +11,7 @@ export interface IProduct {
 	image?: string;
 	hasImage: boolean;
 }
+
 export class Product implements IProduct {
 	protected static productsWithoutImage = ['12', '72', '35'];
 	protected static defaultImage = 'img/no_image.jpg';
@@ -20,12 +21,15 @@ export class Product implements IProduct {
 		this.#image = image ?? Product.defaultImage;
 		this.#productId = productId;
 	}
+
 	get image() {
 		return this.#image;
 	}
+
 	get hasImage() {
 		return Product.defaultImage.includes(this.productId);
 	}
+
 	get productId() {
 		return this.#productId;
 	}

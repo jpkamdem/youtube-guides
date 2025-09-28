@@ -1,0 +1,1 @@
+❌ `switch` = if/else moins moche, il faut s'en éloigner. Il y a différents types de livres partageant certaines propriétés en commun = POO
