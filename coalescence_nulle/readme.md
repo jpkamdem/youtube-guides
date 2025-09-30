@@ -10,7 +10,7 @@ if (response.data.age) {
 ❌ certaines valeurs devant être incluses ne le sont pas, notamment 0
 
 ```ts
-age = response?.data?.age || 'Age could not be determined';
+age = response?.data?.age ?? 'Age could not be determined';
 ```
 
 ✅ `??`, l'opérateur non null, n'acepte que `null` & `undefined` comme `falsy`, sans compter 0
